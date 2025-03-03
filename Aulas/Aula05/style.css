@@ -1,0 +1,24 @@
+/* Define a cor de fundo da página e estilos básicos */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 100px;
+  }
+  
+  /* Estiliza o cabeçalho principal */
+  h1 {
+    color: #8b2e2e;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #8b2e2e;
+    text-align: center;
+  }
+  
+  /* Estiliza a div text */
+  div.text {
+    font-size: 15px;
+    line-height: 1.5;
+  }
