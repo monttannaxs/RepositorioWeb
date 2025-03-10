@@ -1,0 +1,35 @@
+header {
+    text-align: left;
+    color:#213555;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #FFFF;
+    font-size: 180%;
+}
+.main{
+    text-align: center;
+    color:#213555;
+    padding: 5%;
+    background-color: #F5EFE7;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+}
+p {
+    font-size: 120%;
+    margin: 20px; 
+}
+a {
+    text-decoration: transparent;
+    background-color: transparent;
+    color:#213555;
+}
+img {
+    width: 25%;
+}
+hr {
+    color: #3E5879;
+}
+
+/*
+Paleta de cor usada: https://colorhunt.co/palette/2135553e5879d8c4b6f5efe7 
+*/
