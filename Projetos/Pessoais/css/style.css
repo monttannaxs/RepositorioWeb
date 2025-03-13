@@ -1,25 +1,29 @@
-header {
-    text-align: left;
-    color:#213555;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #FFFF;
-    font-size: 180%;
+hr {
+    color: #3E5879;
 }
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
 .name {
     width: 100px;
     float: left;
     padding: 14px 16px;
-    font-family: Segoe UI;
     }
-
-.main{
+.sites{
+    color:#213555;
+}
+.content-main{
     text-align: center;
     color:#213555;
     padding: 5%;
     background-color: #F5EFE7;
     font-family: Arial, Helvetica, sans-serif;
-    display: flexbox;
 }
 p {
     font-size: 120%;
@@ -31,8 +35,22 @@ a {
     color:#213555;
 }
 
-hr {
-    color: #3E5879;
+
+.myheader {
+    text-align: left;
+    color:#213555;
+    background-color: white;
+    border: 1px solid #FFFF;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items: center;
+
+}
+
+.myheader img {
+    width: 50px;
+    margin-right: 20px;
 }
 
 /*
