@@ -7,6 +7,11 @@ h2 {
     font-size: 150%;
 }
 
+article{
+  padding: 50px;
+  text-align: center;
+}
+
 .sites{
     color:#213555;
 }
@@ -64,18 +69,18 @@ header{
 
 /* --------------------------------------------------------------------------------------------------------------------*/
 
-nav ul {
+.navegacao ul {
   display: flex;
   position: fixed;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   gap: 2rem;
-  font-size: 150%;
+  font-size: 130%;
   width: 50%;
   align-items: center;
 
 }
 
-nav ul li a {
+.navegacao ul li a {
   text-decoration: none;
   color: #213555;
   align-items: center;
@@ -86,12 +91,29 @@ nav ul li a {
   color: #213555;
   list-style-type: none;
   margin: 0%;
-  list-style: none;
   align-items: center;
   margin: -15px;
   padding: 0px 90px;
 }
 
+.sites{
+  font-size: 120%;
+  margin: 5%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  height: 0px;
+  width: 80px;
+ 
+}
+
+.profiles{
+  align-items: center;
+}
 /*
 Paleta de cor usada: https://colorhunt.co/palette/2135553e5879d8c4b6f5efe7 
 */
