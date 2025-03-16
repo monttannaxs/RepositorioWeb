@@ -98,21 +98,30 @@ header{
 
 .sites{
   font-size: 120%;
-  margin: 5%;
-  text-align: center;
+  margin: 50px;
   list-style-type: none;
-}
-
-.icons{
   display: flex;
+  align-items: center;
   flex-direction: column;
-  height: 0px;
-  width: 80px;
- 
+  margin-right: 900px;
 }
 
-.profiles{
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+
+}
+img{
+  height:auto;
+  width: 150px;
   align-items: center;
+}
+
+.sites{
+  flex-direction: row;
+  font-size: large;
+  justify-content: space-between;
 }
 /*
 Paleta de cor usada: https://colorhunt.co/palette/2135553e5879d8c4b6f5efe7 
