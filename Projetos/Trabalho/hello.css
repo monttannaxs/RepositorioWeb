@@ -1,0 +1,14 @@
+/* CSS */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Set the background color of the navbar */
+    padding: 10px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+body {
+    padding-top: 50px; /* Adjust the padding to avoid content being hidden behind the navbar */
+}

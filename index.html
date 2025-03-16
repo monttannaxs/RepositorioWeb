@@ -1,33 +1,41 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Inside Page Content</title>
+    <style>
+        /* Navbar Styling */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Pedro Henrique</title>
-        <style>
-            .flex-cointainer{
-                display: flex;
-                flex-direction: row;
-                background-color: rgb(17, 0, 255);
-                align-items: center;
-                justify-content: center;
-            }
-            .flex-cointainer > div{
-                background-color: rgb(255, 255, 255);
-                margin: 20px;
-                width: 2000px;
-                text-align: center;
-                line-height: 75px;
-                font-size: 30px;
-            }
-        </style>
-    </head>
+        /* Body content styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
 
-    <body>
-        <div class="flex-cointainer">
-            <div>1</div>
-            <div>Henrique SJDIFJ==</div>
-            <div>3</div>
-        </div>
-    </body>
-</html>
+        .content {
+            padding: 20px;
+            height: 2000px; /* Just to create enough space for scrolling */
+        }
+
+        /* Styling for content section */
+        .content h1 {
+            text-align: center;
+            font-size: 2rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content Section -->
+    <div class="content">
+        <!-- Navbar inside content -->
+        <div class="navbar">
+            <h2>Navbar Inside Page Content</h2
