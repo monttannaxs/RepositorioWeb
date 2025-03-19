@@ -22,7 +22,7 @@ article{
 .sites{
     color:#213555;
 }
-.content-main{
+.inicial{
     text-align: center;
     color:#213555;
     background-color: #f5efe7;
@@ -34,7 +34,7 @@ article{
 
 p {
     font-size: 140%;
-    margin: 60px; 
+    margin: 40px; 
     font-family: Arial, Helvetica, sans-serif;
   }
 a {
@@ -48,6 +48,20 @@ iframe{
   height: 340px;
   display: block;
   margin: 0 auto;
+}
+
+video{
+  width: 250px;
+  height: 400px;
+  display: block;
+  border: 5px solid #213555;
+}
+
+img{
+  width: 350px;
+  height: 100px;
+  display: block;
+  border: 5px solid #213555;
 }
 
 
